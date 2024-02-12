@@ -16,7 +16,6 @@ Restauración de la Base de Datos
 Para restaurar la base de datos desde el archivo de respaldo ubicado en la carpeta db, sigue estos pasos:
 
 Abre tu cliente de MySQL.
-
 Crea una nueva base de datos con el nombre newt si aún no existe:
 
 CREATE DATABASE IF NOT EXISTS newt;
@@ -39,6 +38,8 @@ npm install
 Una vez que el proyecto esté clonado y las dependencias estén instaladas, ejecuta el servidor con el siguiente comando:
 
 docker compose up --build
+ó 
+nodemon index
 
 Abre tu navegador web y ve a la siguiente URL para acceder al formulario de registro:
 
