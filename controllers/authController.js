@@ -41,7 +41,7 @@ exports.register = async (req, res) => {
             showConfirmButton: true,
             showCancelButton: false,
             timer: false,
-            ruta: ""
+            ruta: "inicio"
         
           });
         }
@@ -105,7 +105,7 @@ exports.login = async (req, res) => {
               alertIcon: "success",
               showConfirmButton: false,
               timer: 0,
-              ruta: "",
+              ruta: "inicio",
             });
           }
         }
