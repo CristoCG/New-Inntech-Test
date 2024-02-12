@@ -58,3 +58,6 @@ http://localhost:3001/api/db/users
 Y para la API de costumers:
 
 http://localhost:3001/api/db/costumers
+
+
+//Colección de postman en la carpeta postman junto al entorno (incompleto)
