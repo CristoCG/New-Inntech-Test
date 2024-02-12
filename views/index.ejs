@@ -413,7 +413,7 @@
                           <td><%= entry.job %></td>
                           <td>
                               <form method="post" action="/deletedb/<%= entry.id %>">
-                                  <button type="submit">Borrar</button>
+                                  <button class="btn btn-primary w-100 py-2" type="submit">Borrar</button>
                               </form>
                           </td>
                          
@@ -445,7 +445,7 @@
                         <td><input type="text" name="job" value="<%= entry.job %>"></td>
                         <td>
                                 <form method="post" action="/updatedb/<%= entry.id %>">
-                                    <button type="submit">Actualizar</button>
+                                    <button class="btn btn-primary w-100 py-2"  type="submit">Actualizar</button>
                                 </form>
                             </td>
                         </tr>
