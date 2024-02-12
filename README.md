@@ -27,11 +27,6 @@ Instala las dependencias:
 
 npm install
 
-(Opcional) Si estás utilizando Docker, puedes construir y ejecutar el contenedor Docker:
-
-docker build -t new-inntech .
-docker run -p 3001:3001 new-inntech
-Uso
 Una vez que el proyecto esté clonado y las dependencias estén instaladas, ejecuta el servidor con el siguiente comando:
 
 docker compose up --build
