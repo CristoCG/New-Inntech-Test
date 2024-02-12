@@ -29,20 +29,18 @@ exports.register = async (req, res) => {
             showConfirmButton: false,
             showCancelButton: true,
             timer: false,
-            ruta:"register"
+            ruta: "register",
           });
         } else {
           res.render("register", {
             alert: true,
             alertTitle: "Exito",
-            alertMessage:
-              "Cuentra creada exitosamente",
+            alertMessage: "Cuentra creada exitosamente",
             alertIcon: "success",
             showConfirmButton: true,
             showCancelButton: false,
             timer: false,
-            ruta: "inicio"
-        
+            ruta: "inicio",
           });
         }
       }
@@ -145,5 +143,5 @@ exports.isAuthenticated = async (req, res, next) => {
 
 exports.logout = (req, res) => {
   res.clearCookie("jwt");
-  return res.redirect("/");
+  return res.redirect("/login");
 };
