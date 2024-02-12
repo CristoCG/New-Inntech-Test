@@ -42,7 +42,7 @@ docker compose up --build
 
 Abre tu navegador web y ve a la siguiente URL para acceder al formulario de registro:
 
-http://localhost:3001/registro
+http://localhost:3001/register
 
 Completa el formulario de registro para crear un usuario.
 
