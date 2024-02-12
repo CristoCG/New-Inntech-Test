@@ -1,0 +1,18 @@
+body {
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #011e2b;
+}
+#text {
+  color: gray;
+}
+
+bold {
+  color: deepskyblue;
+}
+
+#main {
+  background-color: white;
+  border-radius: 10px;
+}
