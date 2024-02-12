@@ -13,6 +13,46 @@ Criterios de aceptación:
 - Se debe generar un archivo readme con los detalles de la ejecución del api.
 - La documentación en swagger (opcional)
 
-Detallles de ejecución:
+Instalación
+Clona este repositorio:
 
-1. En terminal ejecutar el comando
+
+git clone https://github.com/tu_usuario/new-inntech.git
+
+Accede al directorio del proyecto:
+
+cd new-inntech
+
+Instala las dependencias:
+
+npm install
+
+(Opcional) Si estás utilizando Docker, puedes construir y ejecutar el contenedor Docker:
+
+docker build -t new-inntech .
+docker run -p 3001:3001 new-inntech
+Uso
+Una vez que el proyecto esté clonado y las dependencias estén instaladas, ejecuta el servidor con el siguiente comando:
+
+docker compose up --build
+
+Abre tu navegador web y ve a la siguiente URL para acceder al formulario de registro:
+
+bash
+Copy code
+http://localhost:3001/registro
+
+Completa el formulario de registro para crear un usuario.
+
+Una vez registrado, podrás acceder al inicio.
+
+Puedes cerrar sesión en cualquier momento y no podrás acceder al inicio hasta que inicies sesión nuevamente.
+
+API
+Puedes acceder a la API de usuarios utilizando la siguiente ruta:
+
+http://localhost:3001/api/db/users
+
+Y para la API de costumers:
+
+http://localhost:3001/api/db/costumers
