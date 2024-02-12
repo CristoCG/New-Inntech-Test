@@ -1,5 +1,3 @@
-CREATE DATABASE IF NOT EXISTS newt;
-
 USE newt;
 
 CREATE TABLE IF NOT EXISTS costumers (

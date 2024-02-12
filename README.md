@@ -12,12 +12,21 @@ Criterios de aceptación:
 - Los registros deben quedar almacenados en base de datos mysql.
 - Se debe generar un archivo readme con los detalles de la ejecución del api.
 - La documentación en swagger (opcional)
+Restauración de la Base de Datos
+Para restaurar la base de datos desde el archivo de respaldo ubicado en la carpeta db, sigue estos pasos:
+
+Abre tu cliente de MySQL.
+
+Crea una nueva base de datos con el nombre newt si aún no existe:
+
+CREATE DATABASE IF NOT EXISTS newt;
+
+Importa el archivo de respaldo backupDB.sql ubicado en la carpeta db:
+
+SOURCE "RUTA DEL BACKUP";
 
 Instalación
-Clona este repositorio:
-
-
-git clone https://github.com/tu_usuario/new-inntech.git
+Descarga el repositorio o clonalo
 
 Accede al directorio del proyecto:
 
@@ -33,8 +42,6 @@ docker compose up --build
 
 Abre tu navegador web y ve a la siguiente URL para acceder al formulario de registro:
 
-bash
-Copy code
 http://localhost:3001/registro
 
 Completa el formulario de registro para crear un usuario.
